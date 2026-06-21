@@ -7,4 +7,41 @@ body {
 
 :root {
     --color-body: #b00b69;
-}   
+    --background-color-body: #fdb6de;
+    --background-color-body-dark: #b45b8d;
+    --background-color-body-light: #ffceea;
+}
+
+
+section {
+    /* Scroll margin zorgt ervoor dat wanneer je klikt op de links in de navbar dat de sticky nav de sections niet covered.*/
+    scroll-margin-top: 80px;
+    position: relative;
+}
+
+section::after {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 0;
+
+  height: 2px;
+
+  background: linear-gradient(
+    to right,
+    transparent,
+    black,
+    transparent
+  );
+}
+
+nav {
+    background: var(--background-color-body-dark);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+    background-color: var(--background-color-body-dark);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
