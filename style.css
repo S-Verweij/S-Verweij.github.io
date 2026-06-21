@@ -1,0 +1,10 @@
+body {
+    background: #fdb6de;
+    color: var(--color-body);
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+:root {
+    --color-body: #b00b69;
+}   
