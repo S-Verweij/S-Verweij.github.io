@@ -12,6 +12,9 @@ body {
     --background-color-body-light: #ffceea;
 }
 
+.bg-purple {
+    background-color: purple;
+}
 
 section {
     /* Scroll margin zorgt ervoor dat wanneer je klikt op de links in de navbar dat de sticky nav de sections niet covered.*/
@@ -35,6 +38,8 @@ section::after {
     transparent
   );
 }
+
+
 
 nav {
     background: var(--background-color-body-dark);
