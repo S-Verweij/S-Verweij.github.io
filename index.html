@@ -9,13 +9,13 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+<!-- Body -->
 <!-- Navbar -->
 <nav class="navbar my-navbar sticky-top navbar-expand-lg border-bottom border-5 border-dark">
     <div class="container-fluid">
         <!-- Logo -->
         <a class="navbar-brand" href="#">
-            <h1 class="fw-bold mb-4">SV</h>
-                <!-- <img src="./media/kafka_ultimate.png" alt="logo"> -->
+            <img src="./media/kafka_ultimate.png" alt="logo">
         </a>
         <!-- Sections -->
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -30,23 +30,29 @@
                     <a class="nav-link" href="#hobbies">Hobbies</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#ervaring">Ervaring</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#inspiratie">Inspiratie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projecten">Projecten</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
-
     </div>
 </nav>
-<!-- Body -->
 
 <body>
     <div class="container">
         <!-- Cards met informatie en foto's -->
-        <div class="container text-center">
-            <img src="#" class="img-fluid rounded-cicle shadow" style="max-height: 280px" alt="logo">
+        <div class="container text-center py-5">
             <h1 class="fw-bold mb-4">Welkom bij mijn portfolio! Mijn naam is Suriyo Verweij en hier is wat over mij!
             </h1>
             <p>Software Developer, Web Designer, Creative Thinker</p>
@@ -60,11 +66,13 @@
                     <h2 class="fw-bold mb-4">About me</h2>
                     <p>Mijn naam is Suriyo en ik ben een eerste jaars Software Developer bij ROC Mondriaan. In dit jaar
                         leren we hoe we werken met Web-Design met hulp van HTML, CSS, Javascript en Bootstrap. Ook leren
-                        we over Databases en PHP in de form van projecten. </p>
+                        we over Databases en PHP in de form van projecten. Ik hou van tekenen, lezen, creëren en gamen.
+                        Ik vind het altijd erg leuk om met een groep mensen dingen te ontwikkelen en er hard aan te
+                        werken. Ik weet veel, maar één ding weet ik niet: opgeven.</p>
                 </div>
                 <div class="col-md-6">
                     <img src="./media/sv.jpg" class="img-fluid rounded-4 shadow border border-5 border-dark"
-                        alt="image">
+                        alt="selfie">
                 </div>
             </div>
         </div>
@@ -88,6 +96,84 @@
             </div>
         </div>
     </section>
+    <!-- Ervaring Sectie -->
+    <section id="ervaring" class="py-5 full-height">
+        <div class="container text-center">
+
+            <div class="row">
+                <h2 class="fw-bold mb-4">
+                    Mijn ervaring op ROC Mondriaan
+                </h2>
+                <p class="mb-5">
+                    Dit is wat ik heb gedaan en aan het doen ben.
+                </p>
+            </div>
+
+            <div class="row justify-content-center g-5">
+
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-6 d-flex">
+                    <div class="card rounded-2 shadow border border-5 border-dark h-100">
+
+                        <div class="overflow-hidden">
+                            <img src="media/1719485602-neckar-locatiefoto.avif" class="card-img-ervaring" alt="Neckar">
+                        </div>
+
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="fw-bold fs-4">
+                                ROC Mondriaan Neckar 2020 -
+                                Autotechniek en Mobiliteit
+                            </h2>
+
+                            <p class="small flex-grow-1">
+                                Voordat ik begon met Software Developer
+                                wou ik altijd een beetje de auto kant op.
+                                Ik wist totaal niks ervan, maar ik vond
+                                het idee altijd zo verschrikkelijk leuk.
+                                Het was fysiek hard werk, en helaas moest
+                                ik stoppen na 3 maanden vanwege medische
+                                redenen.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-6 col-lg-6 d-flex">
+                    <div class="card rounded-2 shadow border border-5 border-dark h-100">
+
+                        <div class="overflow-hidden">
+                            <img src="media/download.jpg" class="card-img-ervaring" alt="Brasserskade">
+                        </div>
+
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="fw-bold fs-4">
+                                ROC Mondriaan 2023 - 2026
+                                Software Developer
+                            </h2>
+
+                            <p class="small flex-grow-1">
+                                Hoewel ik al een paar jaar ervaring heb
+                                met Software Developer heb ik nooit mijn
+                                tweede jaar kunnen bereiken door de vele
+                                obstakels in het leven. Maar stopt dat mij?
+                                Absoluut niet. Ik doe graag wat ik wil en
+                                heb besloten een pad te vinden dat zowel
+                                leuk als flexibel is wanneer thuiswerken
+                                nodig is. Hoewel ik het jammer vond dat ik
+                                nooit verder kon gaan, ontmoette ik wel
+                                nieuwe mensen en kon ik veel sociale ervaring
+                                opdoen.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <!-- Skills -->
     <section id="skills" class="py-5 full-height">
         <div class="container">
@@ -107,7 +193,7 @@
 
                     <div class="progress mb-3" role="progressbar" aria-valuenow="65" aria-valuemin="0"
                         aria-valuemax="100" style="height:20px">
-                        <div class="progress-bar bg-warning" style="width:25%">Javascript - 65%</div>
+                        <div class="progress-bar bg-warning" style="width:65%">Javascript - 65%</div>
                     </div>
 
                     <div class="progress mb-3" role="progressbar" aria-valuenow="25" aria-valuemin="0"
@@ -137,16 +223,18 @@
                     <p>Ik vind het altijd leuk om een character te pakken waar ik erg veel van hou en dan hun
                         kleuren-palet te gebruiken. Boven de leuke kleuren heb ik besloten om simplistisch te beginnen
                         met mijn portfolio. Kunst is pas perfect, niet wanneer je niets meer kunt toevoegen, maar
-                        wanneer je niets meer kunt weghalen!
+                        wanneer je niets meer kunt weghalen! Ik heb altijd de neiging om te hard in een idee te gaan,
+                        waardoor het er af en toe chaotisch en rommelig eruit kan zien. Ik heb daarom nu besloten om het
+                        simpel te houden.
                     </p>
                 </div>
                 <div class="col-md-4">
                     <h2 class="fw-bold mb-4">Kleuren-palet</h2>
-                    <p>Ik ben een grote fan van anime, manga en bij dit ook gacha games. Hoewel ik meerdere gacha games
-                        heb, main ik er maar 1: Zenless Zone Zero. Buiten dat hou ik van race-spellen spelen, zoals
-                        Forza Horizon en Need for Speed. Ik vind creatieve spellen ook super leuk, want mijn
-                        vrienden-kring is ook erg artistic, dus de laatste tijd hebben we veel lopen kladderen in
-                        Schedule 1 en Meccha Chameleon.</p>
+                    <p>Het kleuren-palet dat ik heb gekozen is met de gedachtes van een specifiek karakter uit één van
+                        mijn spellen. Wat ik altijd doe om kleuren te vinden is kijken naar mijn omgeving. Bijvoorbeeld
+                        een pakje mentos, of een deoderant flesje van Axe of Nivea. Als ik dan een beetje een idee heb
+                        welke richting ik op wil gaan, dan selecteer ik de kleuren die er leuk bij passen. In mijn geval
+                        heb ik deze kleuren gekozen:</p>
                     <img src="./media/1029608.png" class="img-fluid rounded-4 shadow border border-5 border-dark"
                         alt="image">
                 </div>
@@ -155,13 +243,111 @@
                     <p>Ik hou erg veel van mooie elegante kleuren en pastel. Toen ik wou gaan voor kleuren dacht ik aan
                         dit karacter: Kafka. Kafka heeft een mooie paarse basis met een leuke accent dat wat meer naar
                         rood gaat.</p>
-                    <img src="./media/official-valentines-2024-illustration-kafka-v0-g8u553yudhic1.webp" class="img-fluid rounded-4 shadow border border-5 border-dark"
-                        alt="image">
+                    <img src="./media/official-valentines-2024-illustration-kafka-v0-g8u553yudhic1.webp"
+                        class="img-fluid rounded-4 shadow border border-5 border-dark" alt="image">
                 </div>
                 <div class="col-md-4">
                     <h2 class="fw-bold mb-4">Sitemap (WIP)</h2>
-                    <img src="./media/6f9c0ca0-b253-4d9e-87b0-fdaeb97c460b.png" class="img-fluid rounded-4 shadow border border-5 border-dark"
-                        alt="WIP">
+                    <img src="./media/6f9c0ca0-b253-4d9e-87b0-fdaeb97c460b.png"
+                        class="img-fluid rounded-4 shadow border border-5 border-dark" alt="WIP">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projecten -->
+    <section id="projecten" class="py-3 full-height">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="fw-bold mb-5 text-center">Mijn projecten</h2>
+                <p>Hierin staan de projecten die ik heb gemaakt dit schooljaar</p>
+            </div>
+            <div class="row g-5">
+                <!-- Card structuur basisch-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm project-card">
+                        <div class="overflow-hidden">
+                            <img src="#" class="card-img-top project-img" alt="P1">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="fw-bold">Project 1</h2>
+                            <p class="text-muted small flex-grow-1">
+                                Beschrijving Project
+                            </p>
+                            <a href="#LinkNaarProject" class="btn btn-dark btn-sm w-100 mt-auto">Bekijk Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card repeat van L179-L194 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm project-card">
+                        <div class="overflow-hidden">
+                            <img src="#" class="card-img-top project-img" alt="P1">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="fw-bold">Project 1</h2>
+                            <p class="text-muted small flex-grow-1">
+                                Beschrijving Project
+                            </p>
+                            <a href="#LinkNaarProject" class="btn btn-dark btn-sm w-100 mt-auto">Bekijk Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm project-card">
+                        <div class="overflow-hidden">
+                            <img src="#" class="card-img-top project-img" alt="P1">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="fw-bold">Project 1</h2>
+                            <p class="text-muted small flex-grow-1">
+                                Beschrijving Project
+                            </p>
+                            <a href="#LinkNaarProject" class="btn btn-dark btn-sm w-100 mt-auto">Bekijk Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tweede Row van Cards -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm project-card">
+                        <div class="overflow-hidden">
+                            <img src="#" class="card-img-top project-img" alt="P1">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="fw-bold">Project 1</h2>
+                            <p class="text-muted small flex-grow-1">
+                                Beschrijving Project
+                            </p>
+                            <a href="#LinkNaarProject" class="btn btn-dark btn-sm w-100 mt-auto">Bekijk Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm project-card">
+                        <div class="overflow-hidden">
+                            <img src="#" class="card-img-top project-img" alt="P1">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="fw-bold">Project 1</h2>
+                            <p class="text-muted small flex-grow-1">
+                                Beschrijving Project
+                            </p>
+                            <a href="#LinkNaarProject" class="btn btn-dark btn-sm w-100 mt-auto">Bekijk Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm project-card">
+                        <div class="overflow-hidden">
+                            <img src="#" class="card-img-top project-img" alt="P1">
+                        </div>
+                        <div class="card-body d-flex flex-column">
+                            <h2 class="fw-bold">Project 1</h2>
+                            <p class="text-muted small flex-grow-1">
+                                Beschrijving Project
+                            </p>
+                            <a href="#LinkNaarProject" class="btn btn-dark btn-sm w-100 mt-auto">Bekijk Project</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -169,7 +355,7 @@
     <!-- Contact -->
     <section id="contact" class="py-5 full-height">
         <div class="container text-center pt-4">
-            <h2 class="fw-bold mb-4">Contact Me</h2>
+            <h2 class="fw-bold mb-4">Kom in contact!</h2>
             <form action="https://formsubmit.co/suriyoverweij@gmail.com" method="POST"
                 class="row g-3 justify-content-center">
                 <div class="col-md-5">
@@ -195,10 +381,10 @@
             </form>
         </div>
     </section>
+    <!-- Footer -->
+    <footer class="footer text-center p-3 border-top border-5 border-dark">
+        &copy; 2026 Suriyo Verweij - ROC Mondriaan
+    </footer>
 </body>
-<!-- Footer -->
-<footer class="footer text-center p-3 border-top border-5 border-dark">
-    &copy; 2026 Suriyo Verweij - ROC Mondriaan
-</footer>
 
 </html>
